@@ -350,12 +350,15 @@ img {
 /* loginForm & signupForm */
 
 .formDivContainer {
+  
   display: flex;
   justify-content: center;
   margin: 10vh 0vh;
 }
 
 .formContainer {
+  
+  margin-top: 30px;
   text-align: center;
   padding: 2rem 5rem;
   border-radius: 0.5rem;
@@ -363,6 +366,9 @@ img {
 }
 
 .formDiv {
+  background-color: rgb(216, 216, 216);
+  padding: 2rem 5rem;
+  border-radius: 0.8rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -386,6 +392,10 @@ input {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.btn-log{
+  margin: 15px;
 }
 
 .signupPageBtn {

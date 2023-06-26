@@ -62,11 +62,11 @@ const LoginPage = () => {
 
 
     return (
-    <div className="container">
+    <div className="container formContainer">
       <div className="row">
         <div className="col-md-3"></div>
         <div className="col-md-6">
-          <div className="wrapper">
+          <div className="wrapper formDiv" >
             <div class={requestedResponse.alertClass} role="alert">
               {requestedResponse.textMessage}
             </div>
