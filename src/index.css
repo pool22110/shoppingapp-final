@@ -394,6 +394,10 @@ input {
   width: 100%;
 }
 
+.btn-log{
+  margin: 15px;
+}
+
 .signupPageBtn {
   display: flex;
   justify-content: center;

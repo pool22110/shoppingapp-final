@@ -54,13 +54,13 @@ const Navbar = () => {
                 <ul className="navbar-nav ml-auto">
                     {loginStatus ? (
                         <li className="nav-item">
-                            <Link className="nav-link btn btn-danger" onClick={onLogoutHandler}>
+                            <Link className="nav-link btn btn-log btn-danger" onClick={onLogoutHandler}>
                                 Logout
                             </Link>
                         </li>
                     ) : (
                         <li className="nav-item">
-                            <Link className="nav-link btn btn-primary " to="/login">
+                            <Link className="nav-link btn btn-log btn-primary " to="/login">
                                 Login
                             </Link>
                         </li>
